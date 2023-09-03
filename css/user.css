@@ -1,0 +1,109 @@
+body{
+    background-color: #eee;
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nevbar{
+   color: #fff;
+   background-color: #007BFF;
+   
+   height: 50px;
+   display: flex;
+   justify-content:space-around;
+   align-items:center;
+   font-weight: 600;
+   font-size: 30px
+}
+.login{
+    text-decoration: none;
+    color: #fff;
+}
+a:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #fff;
+}
+.container{
+    color: black;
+    background-color: #fff;
+    height: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+
+}
+.back{
+    text-decoration: none;
+}
+.back:hover{
+    text-decoration: none;
+    color: #000;
+}
+ .head-blog{
+    margin-left: -40%;
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: 600;
+}
+.frist-blogs{
+    position: relative;
+    top: 12px;
+    height: 300%;
+    width: 50%;
+    margin-left:25% ;
+    border: 1px solid #00000031;
+    box-shadow: 1px 1px 10px #00000031;
+    background-color: #fff;
+}
+.image{
+    border-radius: 20px;
+    padding: 12px;
+    width: 70px;
+}
+.bloger-heading{
+    position: relative;
+    top: -35px;
+    left: -5px;
+    font-weight: bold;    
+}
+.bloger-name{
+    display: block;
+    font-size: 12px;
+    font-weight: 100px;
+    position: relative;
+    top: -30px;
+    left: 92px;
+
+}
+.contant{
+    position: relative;
+    top: -20px;
+    padding: 20px;
+}
+.second-blogs{
+    position: relative;
+    top: 30px;
+    height: 300%;
+    width: 50%;
+    margin-left:25% ;
+    border: 1px solid #00000031;
+    box-shadow: 1px 1px 10px #00000031;
+    background-color: #fff;
+}
+.user-details{
+    position: relative;
+    left: -20px;
+    
+}
+.email , .Name{
+    display: block;
+    line-height: 40px;
+    font-size: 20px;
+    font-weight: 900;
+    color: blueviolet;   
+}

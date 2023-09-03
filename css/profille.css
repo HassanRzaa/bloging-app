@@ -1,0 +1,101 @@
+body{
+    background-color: #eee;
+}
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nevbar{
+   color: #fff;
+   background-color: #007BFF;
+   height: 50px;
+   display: flex;
+  justify-content:space-around;
+   align-items:center;
+   font-weight: 600;
+   font-size: 30px
+}
+.login{
+    position: relative;
+    right: 0%;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+.hassan{
+    position: relative;
+    right: -20%;
+}
+a:hover{
+    text-decoration: underline;
+    text-shadow: 5px 5px 10px #fff;
+}
+.container{
+    color: black;
+    background-color: #fff;
+    height: 90px;
+    font-size: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    padding-left: 15%;
+
+}
+.profile{
+    height: 200%;
+    width: 80%;
+    background-color: #fff;
+    margin: 5%;
+}
+table tr td{
+    display: block;
+    padding: 12%;
+    font-size: 25px;
+    font-weight: 600;
+    
+}
+.name{
+    margin-top: -50px;
+}
+.password{
+    margin-top: -80px;
+}
+.one-input{
+    margin-top: -100px;
+
+}
+.two-input{
+    margin-top: -130px;
+
+}
+.three-input{
+    margin-top: -160px;
+
+}
+.button-password{
+    margin-top: -180px;
+}
+#button{
+    font-weight: bold;
+    background-color: blueviolet;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 2%;
+    cursor: pointer;
+}
+#new-password{
+    border: 1px solid #73464661;
+    border-radius: 5px;
+    padding: 2%;
+}
+#old-password{
+    border: 1px solid #73464661;
+    border-radius: 5px;
+    padding: 2%;
+}
+#repeat-password{
+    border: 1px solid #73464661;
+    border-radius: 5px;
+    padding: 2%;
+}
